@@ -26,6 +26,11 @@ python main.py
 
 ## Cómo Jugar
 
+![Tablero](https://github.com/atuel96/TaTeTi-con-Minimax/blob/main/imagenes/tablero.png)
+
+Para elegir la casilla se debe escribir la columna + la fila.
+Por ejemplo : "b2" o "A1"
+
 ### Notas sobre la implementación de Minimax
 
 El algortimo minimax garantiza una solución óptima, pero escala exponencialmente en complejidad al agregar posibles estados. Por esta razón solo se implementó el algoritmo desde el segundo movimiento de la IA (su primer movimiento está _hardcodeado_ usando un _if statement_ de forma que sea óptimo).
